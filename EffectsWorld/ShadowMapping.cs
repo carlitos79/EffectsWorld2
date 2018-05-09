@@ -85,8 +85,8 @@ namespace EffectsWorld
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // Load the two models we will be using in the sample
-            gridModel = Content.Load<Model>("grid");
-            dudeModel = Content.Load<Model>("dude");
+            gridModel = Content.Load<Model>("ShadowStuff/grid");
+            dudeModel = Content.Load<Model>("ShadowStuff/dude");
             GaussianEffect = Content.Load<Effect>("GaussianBlur");
                         
             // Create floating point render target
